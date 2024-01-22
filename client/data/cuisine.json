@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Easy 1",
+    "description": "Rice, 1 Money Bag, 3 Tamatori Roll, Pickle, Hot/Cold Ocha",
+    "price": 22000,
+    "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU98DG9a6cEbbJUBa6nAi7cHTKdU4W1xGwJcX9eqeG5nRgD-b_",
+    "categoryId": 1,
+    "authorId": 2,
+    "createdAt": "2023-11-30T07:47:05.247Z",
+    "updatedAt": "2023-11-30T07:47:05.247Z"
+  },
+  {
+    "id": 2,
+    "name": "Easy 2",
+    "description": "Rice, 2 Tori Ball, 2 Tamatori Roll, Pickle",
+    "price": 18000,
+    "imgUrl": "https://hokben-images.s3.ap-southeast-3.amazonaws.com/menu/db0a4a72f3cb8702f80bddd07230e937-1660019366755",
+    "categoryId": 1,
+    "authorId": 1,
+    "createdAt": "2023-11-30T07:47:05.247Z",
+    "updatedAt": "2023-11-30T07:47:05.247Z"
+  },
+  {
+    "id": 3,
+    "name": "Easy 3",
+    "description": "Rice, 3 Tori Ball, 2 Tamatori Roll, Pickle",
+    "price": 19000,
+    "imgUrl": "https://hokben-images.s3.ap-southeast-3.amazonaws.com/menu/e67b22036abce714d34627611d8bf6bc-1660019556051",
+    "categoryId": 1,
+    "authorId": 1,
+    "createdAt": "2023-11-30T07:47:05.247Z",
+    "updatedAt": "2023-11-30T07:47:05.247Z"
+  },
+  {
+    "id": 4,
+    "name": "Easy 4",
+    "description": "Rice, 2 Tori Ball, 2 Tamatori Roll, Pickle",
+    "price": 21000,
+    "imgUrl": "https://hokben-images.s3.ap-southeast-3.amazonaws.com/menu/f85ddcbcbd98bb38cd619ca81601e35f-1660011154575",
+    "categoryId": 1,
+    "authorId": 1,
+    "createdAt": "2023-11-30T07:47:05.247Z",
+    "updatedAt": "2023-11-30T07:47:05.247Z"
+  },
+  {
+    "id": 5,
+    "name": "Easy 5",
+    "description": "Rice, 2 Tori Ball, 2 Tamatori Roll, Pickle",
+    "price": 25000,
+    "imgUrl": "https://hokben-images.s3.ap-southeast-3.amazonaws.com/menu/da9f9e1bd395d2ea74de346f34d82394-1660019653184",
+    "categoryId": 1,
+    "authorId": 1,
+    "createdAt": "2023-11-30T07:47:05.247Z",
+    "updatedAt": "2023-11-30T07:47:05.247Z"
+  },
+  {
+    "id": 6,
+    "name": "Easy 6",
+    "description": "Rice, 2 Tori Ball, 2 Tamatori Roll, Pickle",
+    "price": 27000,
+    "imgUrl": "https://hokben-images.s3.ap-southeast-3.amazonaws.com/menu/320fb59b18e2ccf581b65c19f5da6246-1660019766088",
+    "categoryId": 2,
+    "authorId": 1,
+    "createdAt": "2023-11-30T07:47:05.247Z",
+    "updatedAt": "2023-11-30T07:47:05.247Z"
+  }
+]

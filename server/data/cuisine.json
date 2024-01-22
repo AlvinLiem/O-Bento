@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Easy 1",
+    "description": "Rice, 1 Money Bag, 3 Tamatori Roll, Pickle, Hot/Cold Ocha",
+    "price": 22000,
+    "imgUrl": "https://i.imgur.com/T3aGgJc.png",
+    "categoryId": 1,
+    "authorId": 2
+  },
+  {
+    "name": "Easy 2",
+    "description": "Rice, 2 Tori Ball, 2 Tamatori Roll, Pickle",
+    "price": 18000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 1",
+    "description": "Ini adalah deskripsi test untuk menu 1",
+    "price": 21000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 2
+  },
+  {
+    "name": "Test Menu 2",
+    "description": "Ini adalah deskripsi test untuk menu 2",
+    "price": 22000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 3",
+    "description": "Ini adalah deskripsi test untuk menu 3",
+    "price": 23000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 4",
+    "description": "Ini adalah deskripsi test untuk menu 4",
+    "price": 24000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 5",
+    "description": "Ini adalah deskripsi test untuk menu 5",
+    "price": 25000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 6",
+    "description": "Ini adalah deskripsi test untuk menu 6",
+    "price": 26000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 7",
+    "description": "Ini adalah deskripsi test untuk menu 7",
+    "price": 27000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 8",
+    "description": "Ini adalah deskripsi test untuk menu 8",
+    "price": 28000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 9",
+    "description": "Ini adalah deskripsi test untuk menu 9",
+    "price": 29000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 10",
+    "description": "Ini adalah deskripsi test untuk menu 10",
+    "price": 30000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 11",
+    "description": "Ini adalah deskripsi test untuk menu 11",
+    "price": 31000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 12",
+    "description": "Ini adalah deskripsi test untuk menu 12",
+    "price": 32000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 13",
+    "description": "Ini adalah deskripsi test untuk menu 13",
+    "price": 33000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 14",
+    "description": "Ini adalah deskripsi test untuk menu 14",
+    "price": 34000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 15",
+    "description": "Ini adalah deskripsi test untuk menu 15",
+    "price": 35000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 16",
+    "description": "Ini adalah deskripsi test untuk menu 16",
+    "price": 36000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 17",
+    "description": "Ini adalah deskripsi test untuk menu 17",
+    "price": 37000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 18",
+    "description": "Ini adalah deskripsi test untuk menu 18",
+    "price": 38000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 19",
+    "description": "Ini adalah deskripsi test untuk menu 19",
+    "price": 39000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Test Menu 20",
+    "description": "Ini adalah deskripsi test untuk menu 20",
+    "price": 40000,
+    "imgUrl": "https://i.imgur.com/myQNe9m.png",
+    "categoryId": 3,
+    "authorId": 1
+  }
+]

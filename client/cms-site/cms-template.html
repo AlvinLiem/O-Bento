@@ -1,0 +1,592 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous"
+        />
+        <title>Bento-Bento</title>
+    </head>
+    <body style="background-image: url(https://img.freepik.com/premium-vector/japanese-pattern-background-with-futuristic-modern-style-concept_7505-2427.jpg);">
+
+        
+        <section id="loginPage">
+            <section id="navbar">
+                <div class="nav navbar bg-warning">
+                    <div class="div container-fluid justify-content-between">
+                        <div>
+                            <img src="../assets/o-bento-logo.png" style="width: 8rem ; height: auto;" alt="Logo">
+                        </div>
+                        <div class="position-absolute top-0 start-50 translate-middle-x">
+                            <a href="#" class="btn">Home</a>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>        
+        <div class="container d-flex justify-content-center align-item-center">
+            <div class="row">
+                <!-- position-absolute top-50 start-50 translate-middle -->
+                <form class="bg-light rounded" style="width: 25rem;">
+                    <div class="class mb-3">
+                        <h2 class="text-center fw-bolder">Login</h2>
+                    </div>
+                    <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="e.g. yourname@mail.com" >
+                    </div>
+                    <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="d-flex mb-3 justify-content-center">
+                        <button type="submit" class="btn btn-primary">Enter</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+            </section>
+
+    </section>
+    <section id="cuisinesList">
+        <section id="navbar">
+            <div class="nav navbar bg-warning">
+                <div class="div container-fluid justify-content-between">
+                    <div>
+                        <img src="../assets/o-bento-logo.png" style="width: 8rem ; height: auto;" alt="Logo">
+                    </div>
+                    <div class="position-absolute top-0 start-50 translate-middle-x">
+                        <a href="#" class="btn">Home</a>
+                    </div>
+                    <div>
+                        <a href="#" class="btn">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container m-4">
+                <div class="row" style="height: 40rem;">
+                    <div class="col-2 bg-dark text-light rounded-start-4">
+                        <div class="row  d-flex justify-content-center">
+                            <h2 class="text-center">Navigations</h2>
+                            <div>
+                                <ul class="list-group list-group-flush">
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">All Cuisines</li>
+                                    </a>
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">Add Cuisines</li>
+                                    </a>
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">All Categories</li>
+                                    </a>
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">Register</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 bg-light rounded-end-4">
+                        <div class="row ">
+                            <h2 class="text-center border-bottom">All Cuisines</h2>
+                            <div>
+                                <table class="table table-hover text-center text wrap">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">ID</th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Description</th>
+                                        <th scope="col">Price</th>
+                                        <th scope="col">Category Id</th>
+                                        <th scope="col">Author Id</th>
+                                        <th scope="col"></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                          <th scope="row">1</th>
+                                          <td>Easy 1</td>
+                                          <td>Rice, 1 Money Bag, 3 Tamatori Roll, Pickle, Hot/Cold Ocha</td>
+                                          <td>22000</td>
+                                          <td>1</td>
+                                          <td>2</td>
+                                          <td>
+                                            <div class="dropdown">
+                                                <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  Actions
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                  <li><a class="dropdown-item" href="#">Details</a></li>
+                                                  <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                  <li><a class="dropdown-item" href="#">Delete</a></li>
+                                                  <li><a class="dropdown-item" href="#">Upload Image</a></li>
+                                                </ul>
+                                              </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Easy 2</td>
+                                            <td>Rice, 2 Tori Ball, 2 Tamatori Roll, Pickle</td>
+                                            <td>18000</td>
+                                            <td>1</td>
+                                            <td>1</td>
+                                            <td>
+                                              <div class="dropdown">
+                                                  <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Actions
+                                                  </button>
+                                                  <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Details</a></li>
+                                                    <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                    <li><a class="dropdown-item" href="#">Delete</a></li>
+                                                    <li><a class="dropdown-item" href="#">Upload Image</a></li>
+                                                  </ul>
+                                                </div>
+                                            </td>
+                                          </tr>
+
+                                      </tbody>
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    </section>
+
+    <section id="cuisinesDetail">
+        <section id="navbar">
+            <div class="nav navbar bg-warning">
+                <div class="div container-fluid justify-content-between">
+                    <div>
+                        <img src="../assets/o-bento-logo.png" style="width: 8rem ; height: auto;" alt="Logo">
+                    </div>
+                    <div class="position-absolute top-0 start-50 translate-middle-x">
+                        <a href="#" class="btn">Home</a>
+                    </div>
+                    <div>
+                        <a href="#" class="btn">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container m-4">
+                <div class="row" style="height: 40rem;">
+                    <div class="col-2 bg-dark text-light rounded-start-4">
+                        <div class="row  d-flex justify-content-center">
+                            <h2 class="text-center">Navigations</h2>
+                            <div>
+                                <ul class="list-group list-group-flush">
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">All Cuisines</li>
+                                    </a>
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">Add Cuisines</li>
+                                    </a>
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">All Categories</li>
+                                    </a>
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">Register</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 bg-light rounded-end-4">
+                        <div class="row ">
+                            <h2 class="text-center border-bottom">Cuisines Details</h2>
+                            <div class="d-flex gap-1">
+                                <div class="card me-0 m-3 p-3" style="width: 30rem; height: auto;">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU98DG9a6cEbbJUBa6nAi7cHTKdU4W1xGwJcX9eqeG5nRgD-b_" class="card-img " alt="Food Image">
+                                  </div>
+                                  <div class="card ms-0 m-3 p-3" style="width: 30rem; height: auto;">
+                                  <div class="card-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">ID: 1</li>
+                                        <li class="list-group-item">Name: Easy 1</li>
+                                        <li class="list-group-item">Description: Rice, 1 Money Bag, 3 Tamatori Roll, Pickle, Hot/Cold Ocha</li>
+                                        <li class="list-group-item">Price: 22000</li>
+                                        <li class="list-group-item">Image URL: https://i.imgur.com/T3aGgJc.png</li>
+                                        <li class="list-group-item">Category ID: 1</li>
+                                        <li class="list-group-item">Author ID: 2</li>
+                                        <li class="list-group-item">Created At: 2023-11-30T07:47:05.247Z</li>
+                                      </ul>
+                                  </div>              
+                                  </div>              
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-center m-3 p-3">
+                            <div class="col d-flex justify-content-end">
+                                <a href="#">
+                                    <button class="btn btn-primary" style="width: 10rem;">Edit</button>
+                                </a>
+                            </div>
+                            <div class="col d-flex justify-content-center">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#uploadImageModal" style="width: 10rem;">
+                                        Upload Image
+                                      </button>
+                            </div>
+                            <div class="col d-flex justify-content-start">
+                                <a href="#">
+                                    <button class="btn btn-primary" style="width: 10rem;">Delete</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Modal -->
+        <div class="modal fade" id="uploadImageModal" tabindex="-1" aria-labelledby="uploadImageLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Upload Image</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                          <label for="imgUrl" class="form-label">Image</label>
+                          <input type="file" class="form-control" name="imgUrl" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">Click on the "Choose File" button to upload a file:</div>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="submit" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section id="createCuisine">
+        <section id="navbar">
+            <div class="nav navbar bg-warning">
+                <div class="div container-fluid justify-content-between">
+                    <div>
+                        <img src="../assets/o-bento-logo.png" style="width: 8rem ; height: auto;" alt="Logo">
+                    </div>
+                    <div class="position-absolute top-0 start-50 translate-middle-x">
+                        <a href="#" class="btn">Home</a>
+                    </div>
+                    <div>
+                        <a href="#" class="btn">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container m-4">
+                <div class="row" style="height: 40rem;">
+                    <div class="col-2 bg-dark text-light rounded-start-4">
+                        <div class="row  d-flex justify-content-center">
+                            <h2 class="text-center">Navigations</h2>
+                            <div>
+                                <ul class="list-group list-group-flush">
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">All Cuisines</li>
+                                    </a>
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">Add Cuisines</li>
+                                    </a>
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">All Categories</li>
+                                    </a>
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">Register</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 bg-light rounded-end-4">
+                        <div class="row">
+                            <h2 class="text-center border-bottom">Add Cuisines</h2>
+                        </div>
+                        <div class="row">
+                                <form>
+                                    <div class="mb-3">
+                                      <label for="name" class="form-label">Name</label>
+                                      <input type="text" class="form-control" name="name">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="description" class="form-label">Description</label>
+                                      <textarea name="description" class="form-control"></textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="price" class="form-label">Price</label>
+                                      <input type="number" class="form-control" name="price">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="imgUrl" class="form-label">Image URL</label>
+                                      <input type="text" class="form-control" name="imgUrl">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="categoryId" class="form-label">Category Id</label>
+                                      <select name="categoryId" class="form-select">
+                                        <option value="" selected disabled>--Select Categories</option>
+                                        <option value="1">Set Menu</option>
+                                        <option value="2">Beverages</option>
+                                      </select>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <button type="submit" class="btn btn-primary">Add Cuisine</button>
+                                    </div>                    
+                                  </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    </section>
+
+    <section id="editCuisine">
+        <section id="navbar">
+            <div class="nav navbar bg-warning">
+                <div class="div container-fluid justify-content-between">
+                    <div>
+                        <img src="../assets/o-bento-logo.png" style="width: 8rem ; height: auto;" alt="Logo">
+                    </div>
+                    <div class="position-absolute top-0 start-50 translate-middle-x">
+                        <a href="#" class="btn">Home</a>
+                    </div>
+                    <div>
+                        <a href="#" class="btn">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container m-4">
+                <div class="row" style="height: 40rem;">
+                    <div class="col-2 bg-dark text-light rounded-start-4">
+                        <div class="row  d-flex justify-content-center">
+                            <h2 class="text-center">Navigations</h2>
+                            <div>
+                                <ul class="list-group list-group-flush">
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">All Cuisines</li>
+                                    </a>
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">Add Cuisines</li>
+                                    </a>
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">All Categories</li>
+                                    </a>
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">Register</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 bg-light rounded-end-4">
+                        <div class="row">
+                            <h2 class="text-center border-bottom">Edit Cuisines</h2>
+                        </div>
+                        <div class="row">
+                                <form>
+                                    <div class="mb-3">
+                                      <label for="name" class="form-label">Name</label>
+                                      <input type="text" class="form-control" name="name" value="Easy 1">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="description" class="form-label">Description</label>
+                                      <textarea name="description" class="form-control">Rice, 1 Money Bag, 3 Tamatori Roll, Pickle, Hot/Cold Ocha</textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="price" class="form-label">Price</label>
+                                      <input type="number" class="form-control" name="price" value="22000">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="imgUrl" class="form-label">Image URL</label>
+                                      <input type="text" class="form-control" name="imgUrl" value="https://i.imgur.com/T3aGgJc.png">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="categoryId" class="form-label">Category Id</label>
+                                      <select name="categoryId" class="form-select">
+                                        <option value="1" selected>Set Menu</option>
+                                        <option value="2">Beverages</option>
+                                      </select>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <button type="submit" class="btn btn-primary">Update</button>
+                                    </div>                    
+                                  </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    </section>
+
+    <section id="categoryList">
+        <section id="navbar">
+            <div class="nav navbar bg-warning">
+                <div class="div container-fluid justify-content-between">
+                    <div>
+                        <img src="../assets/o-bento-logo.png" style="width: 8rem ; height: auto;" alt="Logo">
+                    </div>
+                    <div class="position-absolute top-0 start-50 translate-middle-x">
+                        <a href="#" class="btn">Home</a>
+                    </div>
+                    <div>
+                        <a href="#" class="btn">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container m-4">
+                <div class="row" style="height: 40rem;">
+                    <div class="col-2 bg-dark text-light rounded-start-4">
+                        <div class="row  d-flex justify-content-center">
+                            <h2 class="text-center">Navigations</h2>
+                            <div>
+                                <ul class="list-group list-group-flush">
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">All Cuisines</li>
+                                    </a>
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">Add Cuisines</li>
+                                    </a>
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">All Categories</li>
+                                    </a>
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">Register</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 bg-light rounded-end-4">
+                        <div class="row ">
+                            <h2 class="text-center border-bottom">All Categories</h2>
+                            <div>
+                                <table class="table table-hover text-center text wrap">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">ID</th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Created At</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                          <th scope="row">1</th>
+                                          <td>Set Menu</td>
+                                          <td>2023-11-30T07:47:05.247Z</td>
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">2</th>
+                                          <td>Beverages</td>
+                                          <td>2023-11-30T07:47:05.247Z</td>
+                                        </tr>                                        
+                                      </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    </section>
+
+    <section id="register">
+        <section id="navbar">
+            <div class="nav navbar bg-warning">
+                <div class="div container-fluid justify-content-between">
+                    <div>
+                        <img src="../assets/o-bento-logo.png" style="width: 8rem ; height: auto;" alt="Logo">
+                    </div>
+                    <div class="position-absolute top-0 start-50 translate-middle-x">
+                        <a href="#" class="btn">Home</a>
+                    </div>
+                    <div>
+                        <a href="#" class="btn">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container m-4">
+                <div class="row" style="height: 40rem;">
+                    <div class="col-2 bg-dark text-light rounded-start-4">
+                        <div class="row  d-flex justify-content-center">
+                            <h2 class="text-center">Navigations</h2>
+                            <div>
+                                <ul class="list-group list-group-flush">
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">All Cuisines</li>
+                                    </a>
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">Add Cuisines</li>
+                                    </a>
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">All Categories</li>
+                                    </a>
+                                    <a class="nav-link" href="#">
+                                        <li class="list-group-item border-0 bg-dark text-light">Register</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 bg-light rounded-end-4">
+                        <div class="row">
+                            <h2 class="text-center border-bottom">Register</h2>
+                        </div>
+                        <div class="row">
+                                <form>
+                                    <div class="mb-3">
+                                      <label for="email" class="form-label">Email</label>
+                                      <input type="text" class="form-control" name="email">
+                                    </div>                                    
+                                    <div class="mb-3">
+                                      <label for="password" class="form-label">Password</label>
+                                      <input type="text" class="form-control" name="password">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="phoneNumber" class="form-label">Phone Number</label>
+                                      <input type="text" class="form-control" name="phoneNumber">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="address" class="form-label">Address</label>
+                                      <input type="text" class="form-control" name="address">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="username" class="form-label">Username</label>
+                                      <input type="text" class="form-control" name="username">
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <button type="submit" class="btn btn-primary">Add User</button>
+                                    </div>                    
+                                  </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    </section>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"
+    ></script>
+    </html>
